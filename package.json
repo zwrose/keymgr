@@ -1,0 +1,19 @@
+{
+  "name": "keymgr",
+  "version": "0.0.1",
+  "description": "This simple script talks to an Alexa Bridge and forwards commands to a local SoundTouch Server.",
+  "main": "keymgr.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwrose/keymgr.git"
+  },
+  "author": "Zach Rose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zwrose/keymgr/issues"
+  },
+  "homepage": "https://github.com/zwrose/keymgr#readme",
+  "dependencies": {
+    "request": "^2.69.0"
+  }
+}
