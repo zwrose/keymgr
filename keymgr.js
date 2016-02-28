@@ -2,9 +2,9 @@ var request = require('request');
 
 // config vars
 // BasePaths should *NOT* include a trailing '/'
-var stServerBasePath = "http://st.zwrose.com"
-var bridgeBasePath = "http://node-playground-161360.nitrousapp.com:3000";
-var bridgeID = 1;
+var stServerBasePath = process.env.ST_SERVER_BASE_PATH;
+var bridgeBasePath = process.env.BRIDGE_BASE_PATH;
+var bridgeID = process.env.BRIDGE_ID;
 
 // action logic
 console.log("Starting up the key handler...")
